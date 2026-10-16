@@ -5,6 +5,9 @@ on:
     workflows: ["Build and Test Arduino Firmware"]
     types: [completed]
 
+permissions:
+  contents: read
+
 jobs:
   generate-badges:
     runs-on: ubuntu-latest
